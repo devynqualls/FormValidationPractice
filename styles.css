@@ -1,0 +1,28 @@
+body  {
+    background-color: rgb(87, 87, 168);
+}
+
+form {
+    background: #6680cc;
+    border-radius: 30px;
+   width: 800px;
+   min-height: 500px;
+   max-height: 800px;
+    color: 	white;
+    text-align: center;
+    
+  }
+
+input {
+margin: 20px;
+background-color: wheat;
+border: solid black;
+}
+
+input:invalid {
+    border-color: crimson;
+    background-color: rgb(243, 180, 193);
+}
+
+input:focus:invalid {
+    outline: none;
